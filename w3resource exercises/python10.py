@@ -16,4 +16,4 @@ n3 = (a*3)
 
 
 print ("The sum of the addition of your integer(n) in format n + nn + nnn is: ")
-print (int(n1)+int(n2)+int(n3))
+print (int(n1)+int(n2)+int(n3)) 
