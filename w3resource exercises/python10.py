@@ -5,14 +5,15 @@
 #n1 = int ( "%s" % a )
 #n2 = int ( "%s%s" % (a,a) )
 #n3 = int ( "%s%s%s" % (a,a,a) )
-
 #print ("The sum of the addition of your integer(n) in format n + nn + nnn is: ")
 #print (n1+n2+n3)
-####################################### EDIT ->
+###################################### EDIT ->
 
-a = int(input("Input an integer : ") )
-n1 = int(a)
-n2 = int(a*a)
-n3 = int(a*a*a)
+a = input("Input an integer : ")
+n1 = (a)
+n2 = (a*2)
+n3 = (a*3)
+
+
 print ("The sum of the addition of your integer(n) in format n + nn + nnn is: ")
-print (n1+n2+n3)
+print (int(n1)+int(n2)+int(n3))
