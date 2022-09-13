@@ -3,6 +3,7 @@
 # V = 4/3 × π × r3
 
 from math import pi
-r = 6.0
-V = 4/3*pi*r**3
-print("The volume of sphere with radius 6 is: ", V)
+
+r = input("Please enter a radius of sphere to get the volume: ")
+V = 4/3*pi*(int)(r)**3
+print("The volume of sphere with your radius is: ", V)
